@@ -1,6 +1,6 @@
 import pandas as pd
 df = pd.read_csv("Date.csv")
-print("Number of rows:", len(df))
-print("Mean price:", df["price"].mean())
+print("Number of transactions:", len(df))
+print("Mean transaction price:", df["price"].mean())
 # Print the largest sale:
-print("Largest Sale:", df["Price"].max())
+print("Largest transaction:", df["Price"].max())
